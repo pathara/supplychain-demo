@@ -12771,20 +12771,27 @@ button:focus {
   background-color: white;
   box-shadow: 0 3px 30px rgba(0, 0, 0, 0.125);
   position: absolute;
-  width: 100%;
-  height: 100%;
+ width: 100%;
+  height: 100%; 
   left: 0;
   top: 0;
-  height: 0;
+  height: 0;/*  
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  transition: all 0.2s;*/ 
 }
 
 .navbar-sticky.scrolled:before {
-  height: 100%;
+  height: 100%; background-color: white;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.125);
+
+}.navbar-sticky.scrolled:after {
+  height: 100%; background-color: white;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.125);
+
 }
+
 
 .navbar-sticky > * {
   position: relative;
